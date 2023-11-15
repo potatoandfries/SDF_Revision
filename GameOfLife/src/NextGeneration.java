@@ -43,7 +43,7 @@ public class NextGeneration {
         // Update the original grid with the new values
         //https://www.geeksforgeeks.org/system-arraycopy-in-java/
         for (int i = 0; i < M; i++) {
-            System.arraycopy(future[i], 0, grid[i], 0, N);
+            System.arraycopy(future[i],0, grid[i], 0, N);
         }
 
         System.out.println("Next Generation");
