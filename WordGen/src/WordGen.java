@@ -35,7 +35,7 @@ public class WordGen {
                 String curr = words[i];
                 String next = words[i + 1];
                 System.out.printf("   :curr: %s, next: %s\n", curr, next);
-                dist.addWord2(curr, next);
+                dist.addWord(curr, next);
             }
         }
         //close the buffered reader and file reader.
