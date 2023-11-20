@@ -1,5 +1,3 @@
-package Revision.WordGen.src;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 

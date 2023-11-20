@@ -1,5 +1,3 @@
-package Revision.WordGen.src;
-
 import java.util.HashMap;
 import java.util.Map;
 
